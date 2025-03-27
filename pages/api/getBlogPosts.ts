@@ -8,6 +8,14 @@ export default function handler(req, res) {
 
   res.status(200).json([
     {
+      title: "Guide to securing API Keys - Don't forget the source",
+      author: "Ray Coulstock",
+      description: `
+        <p>Reaed about how to keep your <i>secret API</i> keys out of source control,
+        especially when working with open source software.</p>
+      `,
+    },
+    {
       title: "Man's Best Friend - The Antelope",
       author: "John Doe",
       description: `
