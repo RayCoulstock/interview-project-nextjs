@@ -11,7 +11,7 @@ export default function handler(req, res) {
       title: "Guide to securing API Keys - Don't forget the source",
       author: "Ray Coulstock",
       description: `
-        <p>Reaed about how to keep your <i>secret API</i> keys out of source control,
+        <p>Read about how to keep your <i>secret API</i> keys out of source control,
         especially when working with open source software.</p>
       `,
     },
